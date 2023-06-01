@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp.Application", "src\VotingApp.Application\VotingApp.Application.csproj", "{59AAC927-DC71-45C1-B17C-CBBC8FA5E407}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{835157A3-5C8D-408A-B8C2-F88DF413C236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{45C42353-6B40-46F2-944C-60E92B9BE5D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp.Domain", "src\VotingApp.Domain\VotingApp.Domain.csproj", "{2E79D0E9-A774-436E-A0A1-07B2CE3B250D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp.Infrastructure", "src\VotingApp.Infrastructure\VotingApp.Infrastructure.csproj", "{6D44016C-E561-49D9-82C0-C49808C1647D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VotingApp.API", "src\VotingApp.API\VotingApp.API.csproj", "{A4484433-B3DA-4404-B7C7-2FE3DB0E9A14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59AAC927-DC71-45C1-B17C-CBBC8FA5E407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AAC927-DC71-45C1-B17C-CBBC8FA5E407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AAC927-DC71-45C1-B17C-CBBC8FA5E407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AAC927-DC71-45C1-B17C-CBBC8FA5E407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E79D0E9-A774-436E-A0A1-07B2CE3B250D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E79D0E9-A774-436E-A0A1-07B2CE3B250D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E79D0E9-A774-436E-A0A1-07B2CE3B250D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E79D0E9-A774-436E-A0A1-07B2CE3B250D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D44016C-E561-49D9-82C0-C49808C1647D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D44016C-E561-49D9-82C0-C49808C1647D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D44016C-E561-49D9-82C0-C49808C1647D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D44016C-E561-49D9-82C0-C49808C1647D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4484433-B3DA-4404-B7C7-2FE3DB0E9A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4484433-B3DA-4404-B7C7-2FE3DB0E9A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4484433-B3DA-4404-B7C7-2FE3DB0E9A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4484433-B3DA-4404-B7C7-2FE3DB0E9A14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59AAC927-DC71-45C1-B17C-CBBC8FA5E407} = {835157A3-5C8D-408A-B8C2-F88DF413C236}
+		{2E79D0E9-A774-436E-A0A1-07B2CE3B250D} = {835157A3-5C8D-408A-B8C2-F88DF413C236}
+		{6D44016C-E561-49D9-82C0-C49808C1647D} = {835157A3-5C8D-408A-B8C2-F88DF413C236}
+		{A4484433-B3DA-4404-B7C7-2FE3DB0E9A14} = {835157A3-5C8D-408A-B8C2-F88DF413C236}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA2A7CDF-8687-4C01-BFAB-67034AA9D09E}
+	EndGlobalSection
+EndGlobal
